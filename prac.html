@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        .screen .image {
+            background: 
+                linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.2) 100%), 
+                radial-gradient(circle, rgba(0, 117, 255, 0.2) 0%, rgba(0, 117, 255, 1) 100%), 
+                url(./images/umbrella.jpg);
+            background-blend-mode: overlay; /* 배경 혼합 모드 */
+            object-fit: cover;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="screen">
+        <div class="image"></div>
+    </div>
+</body>
+</html>
